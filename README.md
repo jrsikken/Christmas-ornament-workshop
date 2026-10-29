@@ -6,8 +6,11 @@ This repository contains only Firmware, no hardware or diagrams
 
 The workshop introduces participants to electronics, soldering, and embedded programming through a fun Christmas-themed project.
 
+**blinkRGBcontinuously.ino**
+Continuously blinks the RGB LED. 1.5mA
+
 **blinkGreenLED15msON.ino**
-The code initializes the RGB LED and generates a short green flash every second. The Adafruit TinyUSB library is included to improve USB COM port reliability and enumeration on Windows systems.
+Briefly blinks green, very low power 15uA. 
 
 **BLEadvertiseConnectBlink.ino**
 Advertises as a BLE beacon, flashes in low-power mode, and plays a rainbow light show when connected.
